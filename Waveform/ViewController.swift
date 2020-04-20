@@ -48,7 +48,7 @@ class ViewController: UIViewController {
             
         }
         
-        // Or from the resource file
+        // ..or from the resource file
         waveGen.getLayer(resourceName: "Track2", ofType: "mp3", frame: secondFrame){ (layer) in
             self.view.layer.addSublayer(layer)
             
